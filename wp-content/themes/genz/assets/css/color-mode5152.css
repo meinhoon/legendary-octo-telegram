@@ -1,0 +1,96 @@
+[data-bs-theme="light"] {
+  --Genz-font-heading: Noto Sans;
+  --Genz-font-text: Noto Sans;
+  --Genz-font-3xs: 10px;
+  --Genz-font-xxs: 12px;
+  --Genz-font-xs: 13px;
+  --Genz-font-sm: 14px;
+  --Genz-font-md: 16px;
+  --Genz-font-md-2: 15px;
+  --Genz-font-lg: 18px;
+  --Genz-font-xl: 20px;
+  --Genz-font-2xl: 22px;
+  --Genz-font-3xl: 58px;
+  --Genz-color-gray-100: #1cc2e7;
+  --Genz-color-gray-200: #66768F;
+  --Genz-color-gray-300: #7F92B0;
+  --Genz-color-gray-400: #94A9C9;
+  --Genz-color-gray-500: #2e548c;
+  --Genz-color-gray-600: #7E9CC7;
+  --Genz-color-gray-700: #4E658A;
+  --Genz-color-gray-800: #C8D5E8;
+  --Genz-color-gray-850: #E8EDF5;
+  --Genz-color-gray-900: #F9FBFF;
+  --Genz-color-gray-950: #F9FBFF;
+  --Genz-color-white: #344161;
+}
+
+[data-bs-theme="light"] .logo-dark {
+  display: block;
+}
+
+[data-bs-theme="light"] .logo-dark-mode,
+[data-bs-theme="light"] .logo-white {
+  display: none;
+}
+
+[data-bs-theme="light"] .input-name.border-gray-500,
+[data-bs-theme="light"] .input-email.border-gray-500 {
+  border-color: rgba(34, 47, 67, 0.1) !important;
+}
+
+[data-bs-theme="light"] .mobile-logo button.btn-close {
+  filter: invert(0);
+}
+
+[data-bs-theme="light"] .hover-neon:hover {
+  background: linear-gradient(var(--Genz-color-gray-950-day, #F9FBFF), var(--Genz-color-gray-950-day, #F9FBFF)) padding-box, linear-gradient(to right, #0ea5ea, #0bd1d1) border-box;
+}
+
+[data-bs-theme="light"] .box-banner-4 .box-socials a svg,
+[data-bs-theme="light"] .box-socials a svg {
+  color: #0B1222;
+}
+
+[data-bs-theme="light"] .box-banner-4 .box-socials a:hover svg,
+[data-bs-theme="light"] .box-socials a:hover svg {
+  color: var(--Genz-color-gray-950, #0B1222);
+}
+
+[data-bs-theme="light"] .card-style-1 .card-image .card-info .box-author .author-info span.color-gray-700 {
+  color: var(--Genz-color-gray-800-day, #C8D5E8);
+}
+
+[data-bs-theme="dark"] .alert-dismissible .btn-close {
+  filter: invert(1);
+}
+
+[data-bs-theme="dark"] .logo-white-mode,
+[data-bs-theme="dark"] .logo-dark {
+  display: none;
+}
+
+[data-bs-theme="auto"] .logo-dark {
+  display: none;
+}
+
+.color-modes-wrap .color-modes {
+  list-style: none;
+  margin: 0;
+}
+
+.color-modes-wrap .color-modes svg {
+  height: 20px;
+  display: inline-block;
+  width: 20px;
+}
+
+.color-modes-wrap .color-modes span {
+  display: inline-block;
+}
+
+.color-modes-wrap .dropdown-menu {
+  min-width: 7rem;
+}
+
+/*# sourceMappingURL=color-mode.css.map */
